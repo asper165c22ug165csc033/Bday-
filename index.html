@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>A Special Surprise 🎁</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     OPENING SCREEN
+========================= -->
+
+<section id="start">
+
+    <div class="gift">🎁</div>
+
+    <h1>Hey Harini! 👀</h1>
+
+    <p>
+        Someone has a little surprise for you...
+    </p>
+
+    <p>
+        Put on your headphones 🎧
+    </p>
+
+    <button onclick="openSurprise()">
+        Open Your Surprise 💖
+    </button>
+
+</section>
+
+
+<!-- =========================
+     MAIN SURPRISE
+========================= -->
+
+<section id="surprise">
+
+    <div class="cake">🎂</div>
+
+    <h1>HAPPY BIRTHDAY! 🎉</h1>
+
+    <p class="intro">
+        Today is all about you 💖
+    </p>
+
+
+    <!-- PHOTO SLIDESHOW -->
+
+    <div class="slideshow">
+
+        <img
+            id="birthdayPhoto"
+            src="pics/1000032849.jpg"
+            alt="Birthday Memory"
+        >
+
+        <div class="photo-text" id="photoText">
+            A little collection of beautiful memories ✨
+        </div>
+
+    </div>
+
+
+    <!-- PHOTO NUMBER -->
+
+    <div class="photo-counter">
+        <span id="currentPhoto">1</span> / 12
+    </div>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <div id="finalMessage">
+
+        <div class="final-cake">
+            🎂
+        </div>
+
+        <h2>
+            Once Again...
+        </h2>
+
+        <h1>
+            Happy Birthday! 💖
+        </h1>
+
+        <p>
+            May your life always be filled with
+            happiness, beautiful memories,
+            laughter and everything you deserve. ✨
+        </p>
+
+        <p>
+            Keep smiling and stay amazing! 🌸
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     BACKGROUND MUSIC
+========================= -->
+
+<audio id="bgm" loop preload="auto">
+
+    <source
+        src="music/bgm.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
